@@ -3,3 +3,11 @@ h1 { color: blue; }
 p { color: red; font-size: 2rem; }
 .copyright { text-align: center; color: #666; }
 .copyright { font-size: 0.85rem; border-top: 1px solid #ddd; }
+.menu {
+    background-color: #98fb98; /* Vert pâle (palegreen) */
+    color: white;
+}
+
+.menu a {
+    color: white; /* Pour que les liens du menu s'affichent aussi en blanc */
+}
