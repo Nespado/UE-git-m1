@@ -2,22 +2,37 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Contact</title>
+    <title>Liste des Contacts</title>
     <link rel="stylesheet" href="css/ligne.css">
 </head>
 <body>
-    <h1>Contactez-nous</h1>
-    <form>
-        <label for="nom">Nom :</label>
-        <input type="text" id="nom" name="nom"><br><br>
-        
-        <label for="email">Email :</label>
-        <input type="email" id="email" name="email"><br><br>
-        
-        <label for="message">Message :</label><br>
-        <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
-        
-        <button type="submit">Envoyer</button>
-    </form>
+    <h1>Liste des Contacts</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dupont</td>
+                <td>Jean</td>
+                <td>jean.dupont@example.com</td>
+            </tr>
+            <tr>
+                <td>Martin</td>
+                <td>Sophie</td>
+                <td>sophie.martin@example.com</td>
+            </tr>
+            <tr>
+                <td>Bernard</td>
+                <td>Lucas</td>
+                <td>lucas.bernard@example.com</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
